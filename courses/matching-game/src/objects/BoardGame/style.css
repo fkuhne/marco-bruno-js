@@ -1,0 +1,6 @@
+.board-game {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+    background-color: red;
+}
