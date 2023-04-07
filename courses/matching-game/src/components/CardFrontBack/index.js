@@ -4,8 +4,12 @@ import CardGame from "../CardGame";
 function CardFrontBack() {
     return /*html*/ `
         <article class="card-front-back">
-            ${CardGame()}
-            ${CardGame()}
+            <div class="card -front">
+                ${CardGame()}
+            </div>
+            <div class="card -back">
+                ${CardGame("logo-javascript", "Logo do Javascript")}
+            </div>
         </article>
     `;
 }
