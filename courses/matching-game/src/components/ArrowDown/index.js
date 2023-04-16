@@ -1,9 +1,14 @@
 import "./styles.css";
 import arrowDownSvg from "../../../images/IconArrowDown.svg";
 
-function ArrowDown() {
+function ArrowDown(currentPlayer = 1) {
     return /*html*/ `
-        <img src=${arrowDownSvg} alt="arrow down" />
+        <img
+          class="arrow-down"
+          data-currentPlayer="${currentPlayer}"
+          src=${arrowDownSvg} 
+          alt="arrow down" 
+        />
     `;
 }
 
