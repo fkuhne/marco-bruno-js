@@ -2,7 +2,7 @@
     position: absolute;
     top: 5px;
     transform: translateX(-43px);
-    transition: transform 200ms ease-in-out;
+    transition: transform 500ms ease-in-out;
 }
 
 .arrow-down[data-currentPlayer="2"] {
